@@ -1,0 +1,20 @@
+source ~/.vim/plugin/basic.vim
+
+""" Plugins  --------------------------------
+" Add/change surrounding ", (, [, etc.
+set surround
+" NerdTree keybindings for project window
+set NERDTree
+" set multiple-cursors
+" set commentary
+" set argtextobj
+" set easymotijon
+" set textobj-entire
+" set ReplaceWithRegister
+
+
+""" Idea specific settings ------------------
+set ideajoin
+set ideastatusicon=gray
+" Use default behavior in refactor windows
+set idearefactormode=keep
